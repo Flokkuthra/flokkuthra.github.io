@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>I O</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/uikit.css" />
+
+  <!-- JS Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="js/jquery.min.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+        <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980; background-color:#9FBCBF">
+            <div class="uk-navbar-left">
+
+                <ul class="uk-navbar-nav">
+                    <li><a href="/index.html">I O</a></li>
+                    <li><a href="/ABOUT.html">About</a></li>
+                    <li class="uk-active"><a href="/CONTACT.html">Contact</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <div class="container uk-animation-fade" style="text-align: center; margin-top: 10%">
+        <h1>Contact I O</h1>
+        <form>
+  			<div class="row">
+    			<div class="six columns">
+      				<label for="exampleEmailInput">Email</label>
+      				<input class="u-full-width" type="email" placeholder="account@io.nz" id="exampleEmailInput">
+    			</div>
+   				<div class="six columns">
+      				<label for="exampleRecipientInput">Reason for contacting I O</label>
+      				<select class="u-full-width" id="exampleRecipientInput">
+				        <option value="Option 1">General Support</option>
+				        <option value="Option 2">Account Details</option>
+				        <option value="Option 3">Technical Queries</option>
+      				</select>
+    			</div>
+  			</div>
+  			<label for="exampleMessage">Query</label>
+  				<textarea class="u-full-width" placeholder="Enter your query here " id="exampleMessage"></textarea>
+  			<label class="example-send-yourself-copy">
+    			<input type="checkbox">
+    			<span class="label-body">Send a copy to yourself</span>
+  			</label>
+  				<input class="button-primary" type="submit" value="Submit">
+		</form>
+    </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
